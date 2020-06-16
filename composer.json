@@ -1,0 +1,22 @@
+{
+  "name": "molokaistudio/magento2-product-registry",
+  "description": "Replacement for deprecated registry to retrieve current product.",
+  "require": {
+    "php": "~7.1.3||~7.2.0||~7.3.0",
+    "magento/module-catalog": "103.0.*"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MolokaiStudio\\ProductRegistry\\": ""
+    }
+  },
+  "version": "0.1"
+}
